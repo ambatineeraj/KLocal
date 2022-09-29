@@ -1,0 +1,132 @@
+ body{
+    font-family: sans-serif;
+    
+ }
+ img{
+     
+    width: 210vh;
+    height: 120vh;
+ }
+ .logo a{
+   color:  blue;
+   border-radius: 3px;
+   font-weight: bold;
+   font-size: 40px;
+ }
+ .log{
+    font-size: 40px;
+ }
+ .log1{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+ }
+ a:hover {
+     
+    text-decoration: none;
+ }
+ #header {
+     padding: 15px;
+     position: absolute;
+ }
+ #header .logo{
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 800;
+ }
+ /*navigation menu*/
+ .nav-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ }
+ .nav-menu > ul{
+    display: flex;
+ }
+ .nav-menu > ul >li {
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 22px;
+ }
+ .nav-menu a{
+    display: block;
+    position: relative;
+    color: black;
+    font-weight: bold;
+ }
+ .nav-menu a:hover{
+    color: rgb(247, 1, 136)
+
+ }
+ .nav-menu a:active{
+    color: rgb(247, 1, 136);
+ }
+ #header .btn{
+    margin-left: 80px;
+ }
+ /* Main menu*/
+
+ .text-block {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  }
+
+.text-block #city{
+ border-radius: 4px;
+ height: 39px;
+ font-size: medium;
+ margin-left: 10px;
+}
+.text-block #search{
+    margin-left: 10px;
+}
+.text-block .card{
+    position: absolute;  
+}
+.text-block .card a{
+    margin: 10px;
+    padding-top: 10px;
+}
+.text-block .card h1{
+    color: black;
+    font-weight: bold;
+}
+.setalert{
+    position: absolute;
+    top: 85%;
+    margin-left:35% ;
+    background-color: blue;
+}
+.card-body h1{
+   margin: 10px ;
+}
+.card-group{
+    height: 100px;
+}
+#storycard{
+    margin: 10px;
+    padding: 60px 60px;
+}
+#storycard h1{
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+#storycard #k{
+    font-weight: bold;
+    color: blue;
+    font-size: 40px;
+}
+#storycard #l{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
